@@ -1,0 +1,1464 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "7de7b7c8-5ed1-42ea-bef3-148c162ef11b",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "0.0.1",
+    "name": "Project",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "adventurer_stand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adventurer_stand.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "adventurer_walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adventurer_walk1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "adventurer_walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adventurer_walk2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice03_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice03_03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "adventurer_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adventurer_jump.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "adventurer_fall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adventurer_fall.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grassHalf.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grassHalf.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grassHalfLeft.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grassHalfLeft.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grassHalfMid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grassHalfMid.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grassHalfRight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grassHalfRight.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "plavo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plavo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice27_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice27_27.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice04_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice04_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice02_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice02_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice06_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice06_06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice07_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice07_07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice01_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice01_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice24_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice24_24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice24_242.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice24_242.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice20_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice20_20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice19_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice19_19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice23_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice23_23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice01_012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice01_012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice06_062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice06_062.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice06_063.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice06_063.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice05_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice05_05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice22_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice22_22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice21_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice21_21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice25_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice25_25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice26_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice26_26.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice34_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice34_34.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice35_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice35_35.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cloud1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cloud2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cloud3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cloud4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bush.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bush.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bush1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bush1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bush2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bush2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bush3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bush3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bush4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bush4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bushAlt2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bushAlt2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bushAlt3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bushAlt3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bushAlt4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bushAlt4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bushOrange2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bushOrange2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bushOrange4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bushOrange4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tallShroom_red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tallShroom_red.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tinyShroom_red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tinyShroom_red.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slimeGreen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slimeGreen.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slimeGreen_walk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slimeGreen_walk.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slimeBlue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slimeBlue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slimeBlue_blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slimeBlue_blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime_walk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime_walk.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spider_walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spider_walk1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spider_walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spider_walk2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snake.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snake.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snake_walk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snake_walk.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "desna.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "desna.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lijeva.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lijeva.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slime_squashed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime_squashed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slimeBlue_squashed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slimeBlue_squashed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slimeGreen_squashed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slimeGreen_squashed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snake_dead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snake_dead.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spider_dead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spider_dead.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "door_closedMid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door_closedMid.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Desktop/GD_GAME/Dodaci/door_closedTop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Desktop\\GD_GAME\\Dodaci\\door_closedTop.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "door_closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door_closed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "door_open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door_open.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blue_button00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue_button00.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "flagYellow2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "flagYellow2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "green_button10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "green_button10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "red_button07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "red_button07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "collision-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "collision-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grey_button13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grey_button13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice03_032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice03_032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice02_022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice02_022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice04_042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice04_042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice01_013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice01_013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice05_052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice05_052.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice19_192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice19_192.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice20_202.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice20_202.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice17_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice17_17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice18_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice18_18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice34_342.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice34_342.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice35_352.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice35_352.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice01_014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice01_014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "strip_purple_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "strip_purple_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "strip_purple_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "strip_purple_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "strip_purple_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "strip_purple_04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "strip_purple_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "strip_purple_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice33_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice33_33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice25_252.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice25_252.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice26_262.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice26_262.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice24_243.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice24_243.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice23_232.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice23_232.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "kenvector_future.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "kenvector_future.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "backgroundColorGrass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backgroundColorGrass.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "green_button01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "green_button01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blue_button002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue_button002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blue_button01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue_button01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "backgroundColorGrass2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backgroundColorGrass2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yellow_button01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yellow_button01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "backgroundColorGrass3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "backgroundColorGrass3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yellow_button012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yellow_button012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blue_button012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue_button012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yellow_button013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yellow_button013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "red_button00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "red_button00.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hitbox.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "hitbox.jpg",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Score",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "Player",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 9999,
+          "canGrabPlatforms": false,
+          "deceleration": 9999,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "roundCoordinates": true,
+          "slopeMaxAngle": 60,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "adventurer_stand.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11.578947067260742,
+                        "y": 18.552631378173828
+                      },
+                      {
+                        "x": 68.42105102539062,
+                        "y": 18.026315689086914
+                      },
+                      {
+                        "x": 70.78947448730469,
+                        "y": 110
+                      },
+                      {
+                        "x": 9.736842155456543,
+                        "y": 110
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.20000000298023224,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "adventurer_walk1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11.578947067260742,
+                        "y": 18.552631378173828
+                      },
+                      {
+                        "x": 68.42105102539062,
+                        "y": 18.026315689086914
+                      },
+                      {
+                        "x": 70.78947448730469,
+                        "y": 110
+                      },
+                      {
+                        "x": 9.736842155456543,
+                        "y": 110
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "adventurer_walk2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11.578947067260742,
+                        "y": 18.552631378173828
+                      },
+                      {
+                        "x": 68.42105102539062,
+                        "y": 18.026315689086914
+                      },
+                      {
+                        "x": 70.78947448730469,
+                        "y": 110
+                      },
+                      {
+                        "x": 9.736842155456543,
+                        "y": 110
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "adventurer_jump.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11.578947067260742,
+                        "y": 18.552631378173828
+                      },
+                      {
+                        "x": 68.42105102539062,
+                        "y": 18.026315689086914
+                      },
+                      {
+                        "x": 70.78947448730469,
+                        "y": 110
+                      },
+                      {
+                        "x": 9.736842155456543,
+                        "y": 110
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "adventurer_fall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11.578947067260742,
+                        "y": 18.552631378173828
+                      },
+                      {
+                        "x": 68.42105102539062,
+                        "y": 18.026315689086914
+                      },
+                      {
+                        "x": 70.78947448730469,
+                        "y": 110
+                      },
+                      {
+                        "x": 9.736842155456543,
+                        "y": 110
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mushroom",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "tallShroom_red.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11.896552085876465,
+                        "y": 28.189655303955078
+                      },
+                      {
+                        "x": 56.72413635253906,
+                        "y": 28.879310607910156
+                      },
+                      {
+                        "x": 56.89655303955078,
+                        "y": 70
+                      },
+                      {
+                        "x": 11.551724433898926,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "tinyShroom_red.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11.896552085876465,
+                        "y": 28.189655303955078
+                      },
+                      {
+                        "x": 56.72413635253906,
+                        "y": 28.879310607910156
+                      },
+                      {
+                        "x": 56.89655303955078,
+                        "y": 70
+                      },
+                      {
+                        "x": 11.551724433898926,
+                        "y": 70
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Score",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "Life",
+      "type": "string",
+      "value": "3"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mainmenu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/theend"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/win"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player"
+    }
+  ],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
