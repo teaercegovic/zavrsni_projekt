@@ -1,0 +1,414 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "cc86790e-9378-4d4b-9eb6-5a81d5e9e149",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Project",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "adventurer_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adventurer_idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "slice03_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slice03_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crvena.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crvena.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "plavo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plavo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hitbox.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "hitbox.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "crvena2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crvena2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tinyShroom_red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tinyShroom_red.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blue_button03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue_button03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "kenvector_future.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "kenvector_future.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Desktop/PMF/6_SEMESTAR/Projekt_OOP_Ercegovic/OTTER/backgrounds/selo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Desktop\\PMF\\6_SEMESTAR\\Projekt_OOP_Ercegovic\\OTTER\\backgrounds\\selo.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pozadina.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "pozadina.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yellow_button03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yellow_button03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "green_button06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "green_button06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "green_button062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "green_button062.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "green_button10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "green_button10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "green_button102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "green_button102.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Desktop/GD_GAME/Dodaci/bush.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Desktop\\GD_GAME\\Dodaci\\bush.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hud_heartFull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hud_heartFull.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zmaj.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zmaj.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zmajo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zmajo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "zmajo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "zmajo2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "green_button09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "green_button09.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "green_button092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "green_button092.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tinyShroom_tan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tinyShroom_tan.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hud_heartFull2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hud_heartFull2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "red_button02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "red_button02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "blue_button05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "blue_button05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grey_button04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grey_button04.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "name": "Pozadina",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "pozadina.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "Bod",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Bodovi: 0 Životi: 3",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    }
+  ],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Bodovi",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "Životi",
+      "type": "string",
+      "value": "3"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/prva"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mainmenu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lvl1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lvl2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/kraj"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/zivot"
+    }
+  ],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

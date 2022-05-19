@@ -1,0 +1,24 @@
+{
+  "associatedLayout": "lvl2",
+  "lastChangeTimeStamp": 0,
+  "name": "Zivot",
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": "var zivot=runtimeScene.getGame().getVariables().get(\"Životi\");\nvar novizivot=zivot.getAsNumber();\nvar brNet = runtimeScene.getVariables().get(\"BrNetocnih\");\nvar novibrnet=brNet.getAsNumber();\nvar brToc=runtimeScene.getVariables().get(\"BrTocnih\");\nvar novibrtoc=brToc.getAsNumber();\nif(novibrtoc==7){\n    zivot.setNumber(novizivot+1);\n    brToc.setNumber(0);\n}\nif(novibrnet==2){\n    zivot.setNumber(novizivot-1);\n    brNet.setNumber(0);\n}\n",
+      "parameterObjects": "",
+      "useStrict": true,
+      "eventsSheetExpanded": false
+    }
+  ]
+}
